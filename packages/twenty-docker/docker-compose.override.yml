@@ -1,0 +1,7 @@
+services:
+  server:
+    environment:
+      PG_DATABASE_URL: ${PG_DATABASE_URL}
+  worker:
+    environment:
+      PG_DATABASE_URL: ${PG_DATABASE_URL}
